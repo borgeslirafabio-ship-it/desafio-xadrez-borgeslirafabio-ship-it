@@ -59,8 +59,25 @@ int r = 0;
 
 
 
-
-
-    return 0;
+    int movimentoBaixo = 2;
+    int movimentoEsquerda = 1;
+    
+    // Loop for: move o Cavalo duas casas para baixo
+    
+    for (int i = 0; i < movimentoBaixo; i++) {
+        
+        printf("Baixo\n");
+        
+       
+    }
+         // Loop while: move o Cavalo 1 casa para Esquerda
+         
+         int j = 0;
+        
+        while (j < movimentoEsquerda) {
+            
+            printf("Esquerda\n");
+            j++;
+        }
     return 0;
 }
